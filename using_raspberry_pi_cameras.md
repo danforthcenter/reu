@@ -10,8 +10,6 @@ Use secure shell (ssh) to log into a Raspberry Pi computer remotely.
 ssh pi@<ip address>
 ```
 
-We will also log into the Raspberry Pi using Cyberduck so we can view images after we take them.
-
 ## Take a picture
 
 To take a picture, see it, and save it with the name *image.jpg* use the following command:
