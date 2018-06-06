@@ -155,6 +155,14 @@ which should be available if **htop** is not.
 
 `df -h` - display disk usage with human-readable units
 
+**chmod** ***permissions*** ***file*** - change file permissions
+
+```bash
+touch script.py
+
+chmod ugo+x script.py
+```
+
 **gzip** ***file*** - compress *file*
 
 **gunzip** ***file.gz*** - decompress *file.gz*
@@ -172,6 +180,6 @@ which should be available if **htop** is not.
 To connect to a Raspberry Pi we will use Secure Shell (SSH). The three pieces of information you need to connect are 
 the hostname/IP address of the server, a username, and a password. The command will take the form: 
 
-```bash
+```
 ssh <username>@<hostname>
 ```
